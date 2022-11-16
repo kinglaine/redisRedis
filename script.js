@@ -84,7 +84,7 @@ function GET(){
 }
 //This function will delete the entire database
 function DEL (){
-    redis.DEL("SQUIRRELS");
+    redis.del("SQUIRRELS");
 }
 console.log(squirrels.squirrel[0].color)
 console.log(squirrels.squirrel[8])
